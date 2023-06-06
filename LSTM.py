@@ -62,4 +62,3 @@ test_labels = np.array([[0.8], [0.9], [1.0]])
 test_data = test_data.reshape((test_data.shape[0], test_data.shape[1], 1))
 loss = model.evaluate(test_data, test_labels, verbose=0)
 print(f'Test loss: {loss:.4f}')
-
